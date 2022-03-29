@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+@import "nullstyle.scss";
+@import "header.scss";
+@import "falcon.scss";
+@import "overwiew.scss";
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #fff;
+	font-size: 16px;
+}
+
+.wrapper {
+	background: #000;
+	max-width: 1437px;
+	margin: 0 auto;
+}
+.container {
+max-width: 1231px;
+margin: 0 auto;
+}

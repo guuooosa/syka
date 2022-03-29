@@ -1,0 +1,60 @@
+.falcon {
+  background: #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+.falcon__title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.falcon__title + * {
+  margin-top: 26px;
+}
+
+.falcon__text {
+  display: inline-block;
+  max-width: 268px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: lowercase;
+  text-align: center;
+  color: #ffffff;
+}
+
+.falcon__text + * {
+  margin-top: 26px;
+}
+
+.falcon__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.falcon__line {
+  height: 59px;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+}
+
+.falcon__image {
+  height: 1006px;
+  overflow: hidden;
+}
+
+.falcon__img {
+  max-width: 100%;
+}
+
+@media (max-width: 950px) {
+  .falcon__image {
+    max-height: 642px;
+  }
+}

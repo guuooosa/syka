@@ -1,0 +1,54 @@
+.falcon {
+	background: #000;
+	font-size: 16px;
+	text-align: center;
+
+	&__title {
+		font-weight: 400;
+		font-size: 64px;
+		line-height: 75px;
+		+ * {
+			margin-top: 26px;
+		}
+	}
+
+	&__text {
+		display: inline-block;
+		max-width: 268px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 140%;
+		text-transform: lowercase;
+		text-align: center;
+		color: #ffffff;
+		+ * {
+			margin-top: 26px;
+		}
+	}
+	&__flex {
+		display: flex;
+		justify-content: center;
+	}
+	&__line {
+		height: 59px;
+		border: 1px solid #ffffff;
+		background: #ffffff;
+	}
+
+	&__image{
+		height: 1006px;
+		overflow: hidden;
+	}
+	&__img {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 950px) {
+	.falcon {
+		&__image {
+		
+			max-height: 642px;
+		}
+	}
+}
